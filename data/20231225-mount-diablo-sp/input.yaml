@@ -2,6 +2,7 @@
 # To be translated to ADIF for uploaded to https://pota.app/
 # https://www.adif.org/
 
+# https://www.adif.org/305/ADIF_305.htm#QSO_Fields
 QSO_DEFAULTS:
   band: 2m
   freq: "146.52"
@@ -18,7 +19,6 @@ QSO_DEFAULTS:
   country: ""
   qth: ""
 
-# https://www.adif.org/305/ADIF_305.htm#QSO_Fields
 QSO_LOG:
   - notes: "POTA K-1176 Eagle Peak Mount Diablo"
     call: K6AVB
