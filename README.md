@@ -1,8 +1,10 @@
 Overview
 --------
 
-Convert my yaml POTA logs (input.yaml) to ADIF files (\*.adi) for upload
-to https://pota.app. It gets the job done for now.
+Used to convert POTA logs (input.yaml)
+to ADIF files (\*.adi)
+for upload to https://pota.app.
+It gets the job done for now.
 
 See Makefile for invocation example.
 Entry point is src/main.py.
