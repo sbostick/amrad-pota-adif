@@ -1,14 +1,17 @@
 Overview
 --------
 
-I wrote this app to convert from a yaml POTA input log to an ADIF file
-for upload to https://pota.app.
+I wrote this to convert yaml POTA logs (inputs) to an ADIF files (output)
+for upload to https://pota.app. It gets the job done for now.
 
-Normally I use pen and paper to log my pota contacts, then input into HAMRS
-app running on an M1 Macbook Pro. Then export the POTA logbook to an ADI file
-for upload to https://pota.app.
+See Makefile for invocation example.
+Entry point is src/main.py.
 
-HAMRS is currently [broken on this platform][1].
+Typically I use pen and paper to log pota contacts. Then I manually enter the
+data into the "HAMRS" app (running Apple MBP-M1). Then I export the POTA log
+to an ADI file for upload.
+
+HAMRS seems to be [broken on this platform][1].
 
 [1]: https://community.hamrs.app/t/gear-menus-not-working-on-mac/4043
 
