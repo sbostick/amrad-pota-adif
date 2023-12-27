@@ -54,7 +54,7 @@ class ActivationLog():
             for qso_field in defaults.keys():
                 qso_value = str(entry.get(qso_field, ""))
                 if not len(qso_value):
-                    entry[qso_field] = defaults.get(qso_field)
+                    entry[qso_field] = defaults.get(qso_field, "")
 
             # REPLACE NULL WITH EMPTY STRING
             for qso_field in entry.keys():

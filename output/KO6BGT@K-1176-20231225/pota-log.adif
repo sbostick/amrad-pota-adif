@@ -1,4 +1,4 @@
-Generated on 2023-12-27T05:30:30Z
+Generated on 2023-12-27T05:43:31Z
 <adif_ver:5>3.0.5
 <programid:6>KO6BGT
 <programversion:5>0.0.1
@@ -16,8 +16,8 @@ Generated on 2023-12-27T05:30:30Z
 <qso_date:8>20231225
 <qso_date_off:8>20231225
 <qth:6>AUBURN
-<rst_rcvd:4>None
-<rst_sent:4>None
+<rst_rcvd:0>
+<rst_sent:0>
 <state:2>CA
 <time_on:4>2204
 <tx_pwr:1>5
@@ -35,8 +35,8 @@ Generated on 2023-12-27T05:30:30Z
 <qso_date:8>20231225
 <qso_date_off:8>20231225
 <qth:9>Roseville
-<rst_rcvd:4>None
-<rst_sent:4>None
+<rst_rcvd:0>
+<rst_sent:0>
 <state:2>CA
 <time_on:4>2206
 <tx_pwr:1>5
@@ -54,8 +54,8 @@ Generated on 2023-12-27T05:30:30Z
 <qso_date:8>20231225
 <qso_date_off:8>20231225
 <qth:8>Martinez
-<rst_rcvd:4>None
-<rst_sent:4>None
+<rst_rcvd:0>
+<rst_sent:0>
 <state:2>CA
 <time_on:4>2208
 <tx_pwr:1>5
@@ -73,8 +73,8 @@ Generated on 2023-12-27T05:30:30Z
 <qso_date:8>20231225
 <qso_date_off:8>20231225
 <qth:12>Soulsbyville
-<rst_rcvd:4>None
-<rst_sent:4>None
+<rst_rcvd:0>
+<rst_sent:0>
 <state:2>CA
 <time_on:4>2210
 <tx_pwr:1>5
@@ -92,8 +92,8 @@ Generated on 2023-12-27T05:30:30Z
 <qso_date:8>20231225
 <qso_date_off:8>20231225
 <qth:10>SEBASTOPOL
-<rst_rcvd:4>None
-<rst_sent:4>None
+<rst_rcvd:0>
+<rst_sent:0>
 <state:2>CA
 <time_on:4>2211
 <tx_pwr:1>5
@@ -111,8 +111,8 @@ Generated on 2023-12-27T05:30:30Z
 <qso_date:8>20231225
 <qso_date_off:8>20231225
 <qth:9>Rio Vista
-<rst_rcvd:4>None
-<rst_sent:4>None
+<rst_rcvd:0>
+<rst_sent:0>
 <state:2>CA
 <time_on:4>2211
 <tx_pwr:1>5
@@ -130,8 +130,8 @@ Generated on 2023-12-27T05:30:30Z
 <qso_date:8>20231225
 <qso_date_off:8>20231225
 <qth:8>Martinez
-<rst_rcvd:4>None
-<rst_sent:4>None
+<rst_rcvd:0>
+<rst_sent:0>
 <state:2>CA
 <time_on:4>2214
 <tx_pwr:1>5
@@ -149,8 +149,8 @@ Generated on 2023-12-27T05:30:30Z
 <qso_date:8>20231225
 <qso_date_off:8>20231225
 <qth:7>Benicia
-<rst_rcvd:4>None
-<rst_sent:4>None
+<rst_rcvd:0>
+<rst_sent:0>
 <state:2>CA
 <time_on:4>2215
 <tx_pwr:1>5
@@ -168,8 +168,8 @@ Generated on 2023-12-27T05:30:30Z
 <qso_date:8>20231225
 <qso_date_off:8>20231225
 <qth:9>GLENBROOK
-<rst_rcvd:4>None
-<rst_sent:4>None
+<rst_rcvd:0>
+<rst_sent:0>
 <state:2>NV
 <time_on:4>2219
 <tx_pwr:1>5
@@ -187,8 +187,8 @@ Generated on 2023-12-27T05:30:30Z
 <qso_date:8>20231225
 <qso_date_off:8>20231225
 <qth:9>Penngrove
-<rst_rcvd:4>None
-<rst_sent:4>None
+<rst_rcvd:0>
+<rst_sent:0>
 <state:2>CA
 <time_on:4>2228
 <tx_pwr:1>5
@@ -206,8 +206,8 @@ Generated on 2023-12-27T05:30:30Z
 <qso_date:8>20231225
 <qso_date_off:8>20231225
 <qth:7>Vallejo
-<rst_rcvd:4>None
-<rst_sent:4>None
+<rst_rcvd:0>
+<rst_sent:0>
 <state:2>CA
 <time_on:4>2229
 <tx_pwr:1>5
@@ -225,8 +225,8 @@ Generated on 2023-12-27T05:30:30Z
 <qso_date:8>20231225
 <qso_date_off:8>20231225
 <qth:6>Sonora
-<rst_rcvd:4>None
-<rst_sent:4>None
+<rst_rcvd:0>
+<rst_sent:0>
 <state:2>CA
 <time_on:4>2232
 <tx_pwr:1>5

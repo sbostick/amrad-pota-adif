@@ -4,19 +4,19 @@
 
 QSO_DEFAULTS:
   band: 2m
-  freq: 146.52
+  freq: "146.52"
   mode: FM
   my_gridsquare: CM97av76
   operator: KO6BGT
   tx_pwr: 5
   qso_date: 20231225
   qso_date_off: 20231225
-  rst_rcvd:
-  rst_sent:
-  name:
-  state:
-  country:
-  qth:
+  rst_rcvd: ""
+  rst_sent: ""
+  name: ""
+  state: ""
+  country: ""
+  qth: ""
 
 # https://www.adif.org/305/ADIF_305.htm#QSO_Fields
 QSO_LOG:
