@@ -18,6 +18,12 @@ BUILD_TIME = os.environ.get('BUILD_TIME')
 #                             QRZ CONFIG                               #
 ########################################################################
 
+QRZ_AGENT = f"{ADIF_PROGRAM_ID}v{ADIF_PROGRAM_VERSION}"
+QRZ_ENDPOINT = "https://xmldata.qrz.com/xml/current"
+QRZ_USER = Secret('qrz.com/KO6BGT.json').decode_json().get('username')
+QRZ_PASS = Secret('qrz.com/KO6BGT.json').decode_json().get('password')
+
+
 from dataclasses import dataclass
 @dataclass
 class QRZConfig:
@@ -25,10 +31,5 @@ class QRZConfig:
     endpoint: str
     username: str = None
     password: str = None
-
-QRZ_AGENT = f"{ADIF_PROGRAM_ID}v{ADIF_PROGRAM_VERSION}"
-QRZ_ENDPOINT = "https://xmldata.qrz.com/xml/current"
-QRZ_USER = Secret('qrz.com/KO6BGT.json').decode_json().get('username')
-QRZ_PASS = Secret('qrz.com/KO6BGT.json').decode_json().get('password')
 
 QRZ_CONF = QRZConfig(QRZ_AGENT, QRZ_ENDPOINT, QRZ_USER, QRZ_PASS)
