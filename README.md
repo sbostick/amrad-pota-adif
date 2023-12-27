@@ -1,7 +1,7 @@
 Overview
 --------
 
-I wrote this to convert yaml POTA logs (inputs) to an ADIF files (output)
+I wrote this to convert yaml POTA logs (inputs) to ADIF files (output)
 for upload to https://pota.app. It gets the job done for now.
 
 See Makefile for invocation example.
