@@ -1,7 +1,7 @@
 """
 ActivationLog() represents one POTA activation.
 
-Intended use for ActivationLog class:
+Intended use of class ActivationLog:
 1. Load QSO records from a yaml input file to python native data structures
 2. Augment the in-memory QSO records with QRZ lookups (by callsign)
 3. Write debug.yaml file representing the full/complete QSO data set

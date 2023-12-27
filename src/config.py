@@ -7,15 +7,26 @@
 import os
 from gnupass import Secret
 
-ADIF_VER = '3.0.5'
-ADIF_PROGRAM_ID = 'KO6BGT'
-ADIF_PROGRAM_VERSION = '0.0.1'
+
+########################################################################
+#                SETTINGS PASSED FROM RUNTIME ENV                      #
+########################################################################
 
 APP_VERSION = os.environ.get('APP_VERSION')
 BUILD_TIME = os.environ.get('BUILD_TIME')
 
+
 ########################################################################
-#                             QRZ CONFIG                               #
+#                         GENERAL CONFIG                               #
+########################################################################
+
+ADIF_VER = '3.0.5'
+ADIF_PROGRAM_ID = 'KO6BGT'
+ADIF_PROGRAM_VERSION = '0.0.1'
+
+
+########################################################################
+#                           QRZ CONFIG                                 #
 ########################################################################
 
 QRZ_AGENT = f"{ADIF_PROGRAM_ID}v{ADIF_PROGRAM_VERSION}"
