@@ -1,4 +1,4 @@
-EVENT_ID      := 20231225-Mount-Diablo
+EVENT_ID      := 20231225-mount-diablo-sp
 ACTIVATION_ID := KO6BGT@K-1176-20231225
 
 run:
