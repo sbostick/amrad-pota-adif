@@ -1,13 +1,14 @@
+"""
+Use for loading secrets from GNU Pass CLI.
+"""
 import subprocess
 import json
 import yaml
 
-GNU_PASS_BIN = "pass"
-
 
 class Secret(object):
   def __init__(self, ident):
-    command = [GNU_PASS_BIN, "show", ident]
+    command = ["pass", "show", ident]
     self.result = subprocess.run(command, capture_output=True)
     self.payload = self.result.stdout.decode('utf-8').strip()
 

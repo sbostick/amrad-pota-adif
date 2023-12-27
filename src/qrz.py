@@ -16,8 +16,11 @@ class Client():
         assert result.status_code == 200
 
         root = ET.fromstring(result.text)
+
+        # Troubleshooting:
         # ET.indent(root, space="  ", level=0)
         # ET.dump(root)
+
         session_key = root.find('./{*}Session/{*}Key')
         self.session_key = session_key.text
 

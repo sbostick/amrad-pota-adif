@@ -1,3 +1,12 @@
+"""
+ActivationLog() represents one POTA activation.
+
+Intended use for ActivationLog class:
+1. Load QSO records from a yaml input file to python native data structures
+2. Augment the in-memory QSO records with QRZ lookups (by callsign)
+3. Write debug.yaml file representing the full/complete QSO data set
+4. Write an ADIF file for upload to https://pota.app
+"""
 import os
 import datetime
 from dateutil.tz import tzlocal, UTC
@@ -12,16 +21,10 @@ import qrz
 class ActivationLog():
     def __init__(self):
         self.rawdata = {}
-
-        logging.debug("ActivationLog() creating qrz client")
         self.qrz_client = qrz.Client(agent=config.QRZ_AGENT,
                                      endpoint=config.QRZ_ENDPOINT,
                                      username=config.QRZ_USER,
                                      password=config.QRZ_PASS)
-
-        now_utc = datetime.datetime.now(UTC)
-        self.generated_on = now_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
-
 
     def read_yaml(self, infile):
         try:
@@ -33,18 +36,20 @@ class ActivationLog():
 
     def augment_with_qrz(self):
         for idx, entry in enumerate(self.rawdata.get('QSO_LOG')):
-            result = self.qrz_client.lookup(entry['call'])
+            callsign = entry['call']
+            result = self.qrz_client.lookup(callsign)
             logging.debug(result)
             root = ET.fromstring(result)
             node = root.find('{*}Callsign')
 
-            entry['name'] = " ".join([node.find('{*}fname').text,
-                                      node.find('{*}name').text])
-            entry['state'] = node.find('{*}state').text
+            # QRZ FREE
             entry['country'] = node.find('{*}country').text
+            entry['name'] = ' '.join([node.find('{*}fname').text,
+                                      node.find('{*}name').text])
             entry['qth'] = node.find('{*}addr2').text
+            entry['state'] = node.find('{*}state').text
 
-            # QRZ SUBSCRIPTION REQUIRED:
+            # QRZ SUBSCRIPTION REQUIRED
             # entry['grid'] = node.find('{*}grid').text
             # entry['addr1'] = node.find('{*}addr1').text
             # entry['zip'] = node.find('{*}zip').text
@@ -70,10 +75,13 @@ class ActivationLog():
             logging.error(f'{outfile} failed yaml validation')
             raise err
 
-    def write_adif(self, outfile):
+    def write_adi(self, outfile):
+        now_utc = datetime.datetime.now(UTC)
+        generated_on = now_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
+
         try:
             with open(outfile, 'w', encoding='utf-8') as fout:
-                fout.write(f"Generated on {self.generated_on}\n")
+                fout.write(f"Generated on {generated_on}\n")
                 fout.write(adif.field_with_newline('adif_ver',
                                                    config.ADIF_VER))
                 fout.write(adif.field_with_newline('programid',

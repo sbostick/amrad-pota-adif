@@ -23,7 +23,6 @@ QRZ_ENDPOINT = "https://xmldata.qrz.com/xml/current"
 QRZ_USER = Secret('qrz.com/KO6BGT.json').decode_json().get('username')
 QRZ_PASS = Secret('qrz.com/KO6BGT.json').decode_json().get('password')
 
-
 from dataclasses import dataclass
 @dataclass
 class QRZConfig:
