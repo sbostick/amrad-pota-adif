@@ -1,0 +1,234 @@
+Generated on 2023-12-27T05:30:30Z
+<adif_ver:5>3.0.5
+<programid:6>KO6BGT
+<programversion:5>0.0.1
+<EOH>
+
+<band:2>2m
+<call:5>K6AVB
+<country:13>United States
+<freq:6>146.52
+<mode:2>FM
+<my_gridsquare:8>CM97av76
+<name:13>JACOB MCBLANE
+<notes:35>POTA K-1176 Eagle Peak Mount Diablo
+<operator:6>KO6BGT
+<qso_date:8>20231225
+<qso_date_off:8>20231225
+<qth:6>AUBURN
+<rst_rcvd:4>None
+<rst_sent:4>None
+<state:2>CA
+<time_on:4>2204
+<tx_pwr:1>5
+<eor>
+
+<band:2>2m
+<call:6>WA6NEA
+<country:13>United States
+<freq:6>146.52
+<mode:2>FM
+<my_gridsquare:8>CM97av76
+<name:14>ROBERT M SILVA
+<notes:53>POTA K-1176 Eagle Peak Mount Diablo, Bob in Roseville
+<operator:6>KO6BGT
+<qso_date:8>20231225
+<qso_date_off:8>20231225
+<qth:9>Roseville
+<rst_rcvd:4>None
+<rst_sent:4>None
+<state:2>CA
+<time_on:4>2206
+<tx_pwr:1>5
+<eor>
+
+<band:2>2m
+<call:6>WA6EKS
+<country:13>United States
+<freq:6>146.52
+<mode:2>FM
+<my_gridsquare:8>CM97av76
+<name:14>JAMES R GAMMON
+<notes:35>POTA K-1176 Eagle Peak Mount Diablo
+<operator:6>KO6BGT
+<qso_date:8>20231225
+<qso_date_off:8>20231225
+<qth:8>Martinez
+<rst_rcvd:4>None
+<rst_sent:4>None
+<state:2>CA
+<time_on:4>2208
+<tx_pwr:1>5
+<eor>
+
+<band:2>2m
+<call:6>KB6DYA
+<country:13>United States
+<freq:6>146.52
+<mode:2>FM
+<my_gridsquare:8>CM97av76
+<name:12>Oren B Davis
+<notes:53>POTA K-1176 Eagle Peak Mount Diablo, Oren near Sanora
+<operator:6>KO6BGT
+<qso_date:8>20231225
+<qso_date_off:8>20231225
+<qth:12>Soulsbyville
+<rst_rcvd:4>None
+<rst_sent:4>None
+<state:2>CA
+<time_on:4>2210
+<tx_pwr:1>5
+<eor>
+
+<band:2>2m
+<call:6>WA6FUL
+<country:13>United States
+<freq:6>146.52
+<mode:2>FM
+<my_gridsquare:8>CM97av76
+<name:13>DAVID L PRICE
+<notes:35>POTA K-1176 Eagle Peak Mount Diablo
+<operator:6>KO6BGT
+<qso_date:8>20231225
+<qso_date_off:8>20231225
+<qth:10>SEBASTOPOL
+<rst_rcvd:4>None
+<rst_sent:4>None
+<state:2>CA
+<time_on:4>2211
+<tx_pwr:1>5
+<eor>
+
+<band:2>2m
+<call:5>KO6MX
+<country:13>United States
+<freq:6>146.52
+<mode:2>FM
+<my_gridsquare:8>CM97av76
+<name:15>KEVIN R MC EVOY
+<notes:35>POTA K-1176 Eagle Peak Mount Diablo
+<operator:6>KO6BGT
+<qso_date:8>20231225
+<qso_date_off:8>20231225
+<qth:9>Rio Vista
+<rst_rcvd:4>None
+<rst_sent:4>None
+<state:2>CA
+<time_on:4>2211
+<tx_pwr:1>5
+<eor>
+
+<band:2>2m
+<call:6>KN6SGJ
+<country:13>United States
+<freq:6>146.52
+<mode:2>FM
+<my_gridsquare:8>CM97av76
+<name:15>Michael A Stepp
+<notes:51>POTA K-1176 Eagle Peak Mount Diablo, Valley Springs
+<operator:6>KO6BGT
+<qso_date:8>20231225
+<qso_date_off:8>20231225
+<qth:8>Martinez
+<rst_rcvd:4>None
+<rst_sent:4>None
+<state:2>CA
+<time_on:4>2214
+<tx_pwr:1>5
+<eor>
+
+<band:2>2m
+<call:6>KM6MRU
+<country:13>United States
+<freq:6>146.52
+<mode:2>FM
+<my_gridsquare:8>CM97av76
+<name:14>Chris R Nanney
+<notes:35>POTA K-1176 Eagle Peak Mount Diablo
+<operator:6>KO6BGT
+<qso_date:8>20231225
+<qso_date_off:8>20231225
+<qth:7>Benicia
+<rst_rcvd:4>None
+<rst_sent:4>None
+<state:2>CA
+<time_on:4>2215
+<tx_pwr:1>5
+<eor>
+
+<band:2>2m
+<call:6>KK7ASI
+<country:13>United States
+<freq:6>146.52
+<mode:2>FM
+<my_gridsquare:8>CM97av76
+<name:17>GREGORY D BELTRAN
+<notes:35>POTA K-1176 Eagle Peak Mount Diablo
+<operator:6>KO6BGT
+<qso_date:8>20231225
+<qso_date_off:8>20231225
+<qth:9>GLENBROOK
+<rst_rcvd:4>None
+<rst_sent:4>None
+<state:2>NV
+<time_on:4>2219
+<tx_pwr:1>5
+<eor>
+
+<band:2>2m
+<call:5>W6NOV
+<country:13>United States
+<freq:6>146.52
+<mode:2>FM
+<my_gridsquare:8>CM97av76
+<name:21>Gerald J McCarthy, Jr
+<notes:35>POTA K-1176 Eagle Peak Mount Diablo
+<operator:6>KO6BGT
+<qso_date:8>20231225
+<qso_date_off:8>20231225
+<qth:9>Penngrove
+<rst_rcvd:4>None
+<rst_sent:4>None
+<state:2>CA
+<time_on:4>2228
+<tx_pwr:1>5
+<eor>
+
+<band:2>2m
+<call:5>K6DJV
+<country:13>United States
+<freq:6>146.52
+<mode:2>FM
+<my_gridsquare:8>CM97av76
+<name:15>Derek J Vincent
+<notes:35>POTA K-1176 Eagle Peak Mount Diablo
+<operator:6>KO6BGT
+<qso_date:8>20231225
+<qso_date_off:8>20231225
+<qth:7>Vallejo
+<rst_rcvd:4>None
+<rst_sent:4>None
+<state:2>CA
+<time_on:4>2229
+<tx_pwr:1>5
+<eor>
+
+<band:2>2m
+<call:6>KN6MKS
+<country:13>United States
+<freq:6>146.52
+<mode:2>FM
+<my_gridsquare:8>CM97av76
+<name:16>Timothy R Kreger
+<notes:57>POTA K-1176 Eagle Peak Mount Diablo, Tim near Sanora Area
+<operator:6>KO6BGT
+<qso_date:8>20231225
+<qso_date_off:8>20231225
+<qth:6>Sonora
+<rst_rcvd:4>None
+<rst_sent:4>None
+<state:2>CA
+<time_on:4>2232
+<tx_pwr:1>5
+<eor>
+

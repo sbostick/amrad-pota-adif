@@ -1,0 +1,69 @@
+# YAML encoding of my POTA log
+# To be translated to ADIF for uploaded to https://pota.app/
+# https://www.adif.org/
+
+QSO_DEFAULTS:
+  band: 2m
+  freq: 146.52
+  mode: FM
+  my_gridsquare: CM97av76
+  operator: KO6BGT
+  tx_pwr: 5
+  qso_date: 20231225
+  qso_date_off: 20231225
+  rst_rcvd:
+  rst_sent:
+  name:
+  state:
+  country:
+  qth:
+
+# https://www.adif.org/305/ADIF_305.htm#QSO_Fields
+QSO_LOG:
+  - notes: "POTA K-1176 Eagle Peak Mount Diablo"
+    call: K6AVB
+    time_on: 2204
+
+  - notes: "POTA K-1176 Eagle Peak Mount Diablo, Bob in Roseville"
+    call: WA6NEA
+    time_on: 2206
+
+  - notes: "POTA K-1176 Eagle Peak Mount Diablo"
+    call: WA6EKS
+    time_on: 2208
+
+  - notes: "POTA K-1176 Eagle Peak Mount Diablo, Oren near Sanora"
+    call: KB6DYA
+    time_on: 2210
+
+  - notes: "POTA K-1176 Eagle Peak Mount Diablo"
+    call: WA6FUL
+    time_on: 2211
+
+  - notes: "POTA K-1176 Eagle Peak Mount Diablo"
+    call: KO6MX
+    time_on: 2211
+
+  - notes: "POTA K-1176 Eagle Peak Mount Diablo, Valley Springs"
+    call: KN6SGJ
+    time_on: 2214
+
+  - notes: "POTA K-1176 Eagle Peak Mount Diablo"
+    call: KM6MRU
+    time_on: 2215
+
+  - notes: "POTA K-1176 Eagle Peak Mount Diablo"
+    call: KK7ASI
+    time_on: 2219
+
+  - notes: "POTA K-1176 Eagle Peak Mount Diablo"
+    call: W6NOV
+    time_on: 2228
+
+  - notes: "POTA K-1176 Eagle Peak Mount Diablo"
+    call: K6DJV
+    time_on: 2229
+
+  - notes: "POTA K-1176 Eagle Peak Mount Diablo, Tim near Sanora Area"
+    call: KN6MKS
+    time_on: 2232
