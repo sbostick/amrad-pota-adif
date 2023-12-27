@@ -1,3 +1,18 @@
+Overview
+--------
+
+I wrote this app to convert from a yaml POTA log to an ADIF file
+for upload to https://pota.app.
+
+Normally I use pen and paper to log my pota contacts, then input into HAMRS
+app running on an M1 Macbook Pro. Then export the POtA logbook to an ADIF file
+and upload that to https://pota.app.
+
+HAMRS is currently [broken on this platform][1].
+
+[1]: https://community.hamrs.app/t/gear-menus-not-working-on-mac/4043
+
+
 References
 ----------
 

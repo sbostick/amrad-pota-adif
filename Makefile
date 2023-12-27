@@ -3,6 +3,6 @@ ACTIVATION_ID := KO6BGT@K-1176-20231225
 
 run:
 	./src/main.py --verbose \
-		--fin ./data/${EVENT_ID}/pota-log.yaml \
-		--fdbg ./data/${EVENT_ID}/intermediate.yaml \
+		--fin ./data/${EVENT_ID}/input.yaml \
+		--fdbg ./data/${EVENT_ID}/debug.yaml \
 		--fout ./data/${EVENT_ID}/${ACTIVATION_ID}.adif
