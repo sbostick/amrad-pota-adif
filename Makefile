@@ -5,4 +5,4 @@ run:
 	./src/main.py --verbose \
 		--fin ./data/${EVENT_ID}/input.yaml \
 		--fdbg ./data/${EVENT_ID}/debug.yaml \
-		--fout ./data/${EVENT_ID}/${ACTIVATION_ID}.adif
+		--fout ./data/${EVENT_ID}/${ACTIVATION_ID}.adi
