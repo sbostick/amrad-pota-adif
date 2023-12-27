@@ -32,7 +32,7 @@ QSO_LOG:
     call: WA6EKS
     time_on: 2208
 
-  - notes: "POTA K-1176 Eagle Peak Mount Diablo, Oren near Sanora"
+  - notes: "POTA K-1176 Eagle Peak Mount Diablo, Oren near Sonora"
     call: KB6DYA
     time_on: 2210
 
@@ -64,6 +64,6 @@ QSO_LOG:
     call: K6DJV
     time_on: 2229
 
-  - notes: "POTA K-1176 Eagle Peak Mount Diablo, Tim near Sanora Area"
+  - notes: "POTA K-1176 Eagle Peak Mount Diablo, Tim near Sonora Area"
     call: KN6MKS
     time_on: 2232
