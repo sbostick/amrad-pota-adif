@@ -1,12 +1,3 @@
-"""
-ActivationLog() represents one POTA activation.
-
-Intended use of class ActivationLog:
-1. Load QSO records from a yaml input file to python native data structures
-2. Augment the in-memory QSO records with QRZ lookups (by callsign)
-3. Write debug.yaml file representing the full/complete QSO data set
-4. Write an ADIF file for upload to https://pota.app
-"""
 import os
 import datetime
 from dateutil.tz import tzlocal, UTC
@@ -19,6 +10,15 @@ import qrz
 
 
 class ActivationLog():
+    """
+    Represents one POTA activation log (list of QSOs).
+
+    Intended use:
+    1. Load QSO records from a yaml input file to python native data structures
+    2. Augment the in-memory QSO records with QRZ lookups (by callsign)
+    3. Write debug.yaml file representing the full/complete QSO data set
+    4. Write an ADIF file for upload to https://pota.app
+    """
     def __init__(self):
         self.rawdata = {}
         self.qrz_client = qrz.Client(agent=config.QRZ_AGENT,
