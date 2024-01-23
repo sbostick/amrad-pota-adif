@@ -22,7 +22,7 @@ BUILD_TIME = os.environ.get('BUILD_TIME')
 
 ADIF_VER = '3.0.5'
 ADIF_PROGRAM_ID = 'KO6BGT'
-ADIF_PROGRAM_VERSION = '0.0.2'
+ADIF_PROGRAM_VERSION = '0.0.3'
 
 
 ########################################################################
