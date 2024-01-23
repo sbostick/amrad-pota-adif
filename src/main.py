@@ -33,6 +33,8 @@ if __name__ == "__main__":
 
     pota_log = pota.ActivationLog()
     pota_log.read_yaml(args.fin)
+    pota_log.apply_qso_defaults()
+    pota_log.convert_local_time_to_utc()
     pota_log.augment_with_qrz()
     pota_log.write_yaml(args.fdbg)
     pota_log.write_adi(args.fout)

@@ -1,0 +1,367 @@
+Generated on 2024-01-23T02:22:29Z
+<adif_ver:5>3.0.5
+<programid:6>KO6BGT
+<programversion:5>0.0.2
+<EOH>
+
+<band:2>2m
+<call:4>N6IV
+<country:13>United States
+<freq:6>146.52
+<gridsquare:4>CM87
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:14>Mark M Godbout
+<notes:29>POTA K-1178, ARRL VHF Contest
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:14>Mokelumne Hill
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2058
+<tx_pwr:2>15
+<eor>
+
+<band:2>2m
+<call:6>KO6BCW
+<country:13>United States
+<freq:6>146.52
+<gridsquare:4>CM87
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:10>Eli Hickox
+<notes:29>POTA K-1178, ARRL VHF Contest
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:13>San Francisco
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2102
+<tx_pwr:2>15
+<eor>
+
+<band:2>2m
+<call:5>K6OAK
+<country:13>United States
+<freq:6>146.52
+<gridsquare:4>CM97
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:12>David E Bono
+<notes:29>POTA K-1178, ARRL VHF Contest
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:7>Fremont
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2103
+<tx_pwr:2>15
+<eor>
+
+<band:2>2m
+<call:6>KK6CPH
+<country:13>United States
+<freq:6>146.52
+<gridsquare:4>CM88
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:13>Ronald K Ward
+<notes:29>POTA K-1178, ARRL VHF Contest
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:10>Santa Rosa
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2104
+<tx_pwr:2>15
+<eor>
+
+<band:2>2m
+<call:5>K6DJV
+<country:13>United States
+<freq:6>146.52
+<gridsquare:4>CM88
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:15>Derek J Vincent
+<notes:29>POTA K-1178, ARRL VHF Contest
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:7>Vallejo
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2106
+<tx_pwr:2>15
+<eor>
+
+<band:2>2m
+<call:4>NU6P
+<country:13>United States
+<freq:6>146.52
+<gridsquare:4>CM87
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:12>JOHN M GLASS
+<notes:29>POTA K-1178, ARRL VHF Contest
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:8>SARATOGA
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2121
+<tx_pwr:2>15
+<eor>
+
+<band:2>2m
+<call:5>AJ6LG
+<country:13>United States
+<freq:6>146.52
+<gridsquare:4>CM97
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:16>JEFFREY F MILLER
+<notes:29>POTA K-1178, ARRL VHF Contest
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:9>LOS GATOS
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2126
+<tx_pwr:2>15
+<eor>
+
+<band:2>2m
+<call:5>AC6YY
+<country:13>United States
+<freq:6>146.52
+<gridsquare:4>CM97
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:14>NENAD TUFEKCIC
+<notes:29>POTA K-1178, ARRL VHF Contest
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:8>San Jose
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2129
+<tx_pwr:2>15
+<eor>
+
+<band:2>2m
+<call:6>WB6YKU
+<country:13>United States
+<freq:6>146.52
+<gridsquare:4>CM88
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:15>STEVEN I GINESI
+<notes:29>POTA K-1178, ARRL VHF Contest
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:8>CAZADERO
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2144
+<tx_pwr:2>15
+<eor>
+
+<band:2>2m
+<call:6>KN6OUJ
+<country:13>United States
+<freq:6>146.52
+<gridsquare:4>CM87
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:18>John A Custer, III
+<notes:29>POTA K-1178, ARRL VHF Contest
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:8>Richmond
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2151
+<tx_pwr:2>15
+<eor>
+
+<band:2>2m
+<call:5>AE6CY
+<country:13>United States
+<freq:6>146.52
+<gridsquare:4>CM87
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:9>CYRUS MOY
+<notes:43>POTA K-1178, ARRL VHF Contest, AE6CY/mobile
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:11>SAN LEANDRO
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2155
+<tx_pwr:2>15
+<eor>
+
+<band:2>2m
+<call:5>N4DLA
+<country:13>United States
+<freq:6>146.52
+<gridsquare:4>CM87
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:15>MATTHEW G VUREK
+<notes:29>POTA K-1178, ARRL VHF Contest
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:6>ORINDA
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2158
+<tx_pwr:2>15
+<eor>
+
+<band:2>2m
+<call:6>KK6JNI
+<country:13>United States
+<freq:6>146.52
+<gridsquare:4>CM87
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:16>Robert C Johnson
+<notes:29>POTA K-1178, ARRL VHF Contest
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:11>El Sobrante
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2200
+<tx_pwr:2>15
+<eor>
+
+<band:4>70cm
+<call:4>ND6V
+<country:13>United States
+<freq:6>446.00
+<gridsquare:4>CM97
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:16>David N Johanson
+<notes:29>POTA K-1178, ARRL VHF Contest
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:8>Campbell
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2203
+<tx_pwr:2>15
+<eor>
+
+<band:4>70cm
+<call:5>AJ6LG
+<country:13>United States
+<freq:6>446.00
+<gridsquare:4>CM97
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:16>JEFFREY F MILLER
+<notes:29>POTA K-1178, ARRL VHF Contest
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:9>LOS GATOS
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2204
+<tx_pwr:2>15
+<eor>
+
+<band:4>70cm
+<call:5>K6OAK
+<country:13>United States
+<freq:6>446.00
+<gridsquare:4>CM97
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:12>David E Bono
+<notes:29>POTA K-1178, ARRL VHF Contest
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:7>Fremont
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2206
+<tx_pwr:2>15
+<eor>
+
+<band:4>70cm
+<call:6>WB6WNI
+<country:13>United States
+<freq:6>446.00
+<gridsquare:4>CM97
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:16>GARY A GIAMPAOLI
+<notes:29>POTA K-1178, ARRL VHF Contest
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:8>SAN JOSE
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2207
+<tx_pwr:2>15
+<eor>
+
+<band:2>2m
+<call:5>AI6DC
+<country:13>United States
+<freq:6>146.52
+<gridsquare:4>CM87
+<mode:2>FM
+<my_gridsquare:8>CM87RW02
+<name:14>Jonathan Grose
+<notes:58>POTA K-1178, ARRL VHF Contest, AI6DC/mobile in Mill Valley
+<operator:6>KO6BGT
+<qso_date:8>20240121
+<qth:11>Mill Valley
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>2332
+<tx_pwr:2>15
+<eor>
+
+<band:2>2m
+<call:5>K2GMY
+<country:13>United States
+<freq:6>146.52
+<gridsquare:4>CM88
+<mode:2>FM
+<my_gridsquare:4>CM88
+<name:14>RICHARD P GAUL
+<notes:77>POTA K-1178, ARRL VHF Contest, KO6BGT/mobile at Vintage Oaks Center in Novato
+<operator:6>KO6BGT
+<qso_date:8>20240122
+<qth:7>BENICIA
+<rst_rcvd:0>
+<rst_sent:0>
+<state:2>CA
+<time_on:4>0114
+<tx_pwr:2>15
+<eor>
+

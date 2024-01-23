@@ -1,0 +1,111 @@
+# YAML encoding of my POTA log
+# To be translated to ADIF for uploaded to https://pota.app/
+# https://www.adif.org/
+
+INPUT_UTC_OFFSET: "-0800"
+
+# https://www.adif.org/305/ADIF_305.htm#QSO_Fields
+QSO_DEFAULTS:
+  band: 2m
+  freq: "146.52"
+  mode: FM
+  my_gridsquare: CM87RW02
+  operator: KO6BGT
+  tx_pwr: 15
+  qso_date: 20240121
+  rst_rcvd: ""
+  rst_sent: ""
+  name: ""
+  state: ""
+  country: ""
+  qth: ""
+  notes: "POTA K-1178, ARRL VHF Contest"
+
+QSO_LOG:
+  - time_on: 1258
+    call: N6IV
+    gridsquare: CM87
+
+  - time_on: 1302
+    call: KO6BCW
+    gridsquare: CM87
+
+  - time_on: 1303
+    call: K6OAK
+    gridsquare: CM97
+
+  - time_on: 1304
+    call: KK6CPH
+    gridsquare: CM88
+
+  - time_on: 1306
+    call: K6DJV
+    gridsquare: CM88
+
+  - time_on: 1321
+    call: NU6P
+    gridsquare: CM87
+
+  - time_on: 1326
+    call: AJ6LG
+    gridsquare: CM97
+
+  - time_on: 1329
+    call: AC6YY
+    gridsquare: CM97
+
+  - time_on: 1344
+    call: WB6YKU
+    gridsquare: CM88
+
+  - time_on: 1351
+    call: KN6OUJ
+    gridsquare: CM87
+
+  - time_on: 1355
+    call: AE6CY
+    gridsquare: CM87
+    notes: "POTA K-1178, ARRL VHF Contest, AE6CY/mobile"
+
+  - time_on: 1358
+    call: N4DLA
+    gridsquare: CM87
+
+  - time_on: 1400
+    call: KK6JNI
+    gridsquare: CM87
+
+  - time_on: 1403
+    call: ND6V
+    gridsquare: CM97
+    band: 70cm
+    freq: "446.00"
+
+  - time_on: 1404
+    call: AJ6LG
+    gridsquare: CM97
+    band: 70cm
+    freq: "446.00"
+
+  - time_on: 1406
+    call: K6OAK
+    gridsquare: CM97
+    band: 70cm
+    freq: "446.00"
+
+  - time_on: 1407
+    call: WB6WNI
+    gridsquare: CM97
+    band: 70cm
+    freq: "446.00"
+
+  - time_on: 1532
+    call: AI6DC
+    gridsquare: CM87
+    notes: "POTA K-1178, ARRL VHF Contest, AI6DC/mobile in Mill Valley"
+
+  - time_on: 1714
+    call: K2GMY
+    my_gridsquare: CM88
+    gridsquare: CM88
+    notes: "POTA K-1178, ARRL VHF Contest, KO6BGT/mobile at Vintage Oaks Center in Novato"

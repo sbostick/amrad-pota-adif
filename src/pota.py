@@ -1,10 +1,12 @@
 import os
-import datetime
+from datetime import datetime, timezone, timedelta
 from dateutil.tz import tzlocal, UTC
+import re
 import yaml
 import logging
 import xml.etree.ElementTree as ET
 import config
+import utc_offset
 import adif
 import qrz
 
@@ -34,6 +36,21 @@ class ActivationLog():
             logging.error(f'{infile} failed yaml validation')
             raise err
 
+    def apply_qso_defaults(self):
+        for idx, entry in enumerate(self.rawdata.get('QSO_LOG')):
+            # Apply QSO_DEFAULTS to records
+            defaults = self.rawdata.get('QSO_DEFAULTS')
+            for qso_field in defaults.keys():
+                qso_value = str(entry.get(qso_field, ""))
+                if not len(qso_value):
+                    entry[qso_field] = defaults.get(qso_field, "")
+
+            # Replace null values with empty string
+            for qso_field in entry.keys():
+                qso_value = str(entry.get(qso_field))
+                if not len(qso_value):
+                    entry[qso_field] = ''
+
     def augment_with_qrz(self):
         for idx, entry in enumerate(self.rawdata.get('QSO_LOG')):
             callsign = entry['call']
@@ -54,18 +71,35 @@ class ActivationLog():
             # entry['addr1'] = node.find('{*}addr1').text
             # entry['zip'] = node.find('{*}zip').text
 
-            # APPLY DEFAULTS IF NEEDED
-            defaults = self.rawdata.get('QSO_DEFAULTS')
-            for qso_field in defaults.keys():
-                qso_value = str(entry.get(qso_field, ""))
-                if not len(qso_value):
-                    entry[qso_field] = defaults.get(qso_field, "")
 
-            # REPLACE NULL WITH EMPTY STRING
-            for qso_field in entry.keys():
-                qso_value = str(entry.get(qso_field))
-                if not len(qso_value):
-                    entry[qso_field] = ''
+    # TODO(sbostick): using only (qso_date, time_on) for QSO records. Unsure
+    # if (qso_date_off, time_off) are needed. POTA log submissions have been
+    # successful with just the QSO start times.
+    def convert_local_time_to_utc(self):
+        offset = str(self.rawdata.get('INPUT_UTC_OFFSET', '0'))
+        (utc_offset_hours, utc_offset_minutes) = utc_offset.parse(offset)
+        utc_offset_str = utc_offset.to_string(offset)
+
+        for idx, entry in enumerate(self.rawdata.get('QSO_LOG')):
+            # Method 1 -- use timezone conversion method
+            iso_date_string = (str(entry['qso_date']) + 'T'
+                               + str(entry['time_on'])
+                               + utc_offset_str)
+            t_start = datetime.fromisoformat(iso_date_string)
+            t_start = t_start.astimezone(tz=timezone.utc)
+            logging.debug(t_start.strftime('%Y-%m-%d %H:%M:%S %z'))
+
+            # Method 2 -- add timedelta to t_start
+            ### t_start_2 = datetime.fromisoformat(iso_date_string)
+            ### t_start_2 += timedelta(hours=(utc_offset_hours * -1),
+            ###                        minutes=(utc_offset_minutes * -1))
+            ### t_start_2 = t_start_2.replace(tzinfo=timezone.utc)
+            ### logging.debug(t_start_2.strftime('%Y-%m-%d %H:%M:%S %z'))
+
+            # Patch the record
+            entry['time_on'] = t_start.strftime('%H%M')
+            entry['qso_date'] = t_start.strftime('%Y%m%d')
+
 
     def write_yaml(self, outfile):
         try:
@@ -76,7 +110,7 @@ class ActivationLog():
             raise err
 
     def write_adi(self, outfile):
-        now_utc = datetime.datetime.now(UTC)
+        now_utc = datetime.now(UTC)
         generated_on = now_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
 
         try:
