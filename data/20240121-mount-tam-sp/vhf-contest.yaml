@@ -1,0 +1,292 @@
+# YAML encoding of my participation in the ARRL January VHF Contest.
+# https://www.arrl.org/january-vhf
+# https://www.b4h.net/cabforms/arrlvhfjan_cab3.php
+
+QSO_LOG:
+- band: 2m
+  call: N6IV
+  country: United States
+  freq: '146.52'
+  gridsquare: CM87
+  mode: FM
+  my_gridsquare: CM87RW02
+  name: Mark M Godbout
+  notes: POTA K-1178, ARRL VHF Contest
+  operator: KO6BGT
+  qso_date: '20240121'
+  qth: Mokelumne Hill
+  rst_rcvd: ''
+  rst_sent: ''
+  state: CA
+  time_on: '2058'
+  tx_pwr: 15
+
+- band: 2m
+  call: KO6BCW
+  country: United States
+  freq: '146.52'
+  gridsquare: CM87
+  mode: FM
+  my_gridsquare: CM87RW02
+  name: Eli Hickox
+  notes: POTA K-1178, ARRL VHF Contest
+  operator: KO6BGT
+  qso_date: '20240121'
+  qth: San Francisco
+  rst_rcvd: ''
+  rst_sent: ''
+  state: CA
+  time_on: '2102'
+  tx_pwr: 15
+
+- band: 2m
+  call: KK6CPH
+  country: United States
+  freq: '146.52'
+  gridsquare: CM88
+  mode: FM
+  my_gridsquare: CM87RW02
+  name: Ronald K Ward
+  notes: POTA K-1178, ARRL VHF Contest
+  operator: KO6BGT
+  qso_date: '20240121'
+  qth: Santa Rosa
+  rst_rcvd: ''
+  rst_sent: ''
+  state: CA
+  time_on: '2104'
+  tx_pwr: 15
+
+- band: 2m
+  call: K6DJV
+  country: United States
+  freq: '146.52'
+  gridsquare: CM88
+  mode: FM
+  my_gridsquare: CM87RW02
+  name: Derek J Vincent
+  notes: POTA K-1178, ARRL VHF Contest
+  operator: KO6BGT
+  qso_date: '20240121'
+  qth: Vallejo
+  rst_rcvd: ''
+  rst_sent: ''
+  state: CA
+  time_on: '2106'
+  tx_pwr: 15
+
+- band: 2m
+  call: NU6P
+  country: United States
+  freq: '146.52'
+  gridsquare: CM87
+  mode: FM
+  my_gridsquare: CM87RW02
+  name: JOHN M GLASS
+  notes: POTA K-1178, ARRL VHF Contest
+  operator: KO6BGT
+  qso_date: '20240121'
+  qth: SARATOGA
+  rst_rcvd: ''
+  rst_sent: ''
+  state: CA
+  time_on: '2121'
+  tx_pwr: 15
+
+- band: 2m
+  call: AC6YY
+  country: United States
+  freq: '146.52'
+  gridsquare: CM97
+  mode: FM
+  my_gridsquare: CM87RW02
+  name: NENAD TUFEKCIC
+  notes: POTA K-1178, ARRL VHF Contest
+  operator: KO6BGT
+  qso_date: '20240121'
+  qth: San Jose
+  rst_rcvd: ''
+  rst_sent: ''
+  state: CA
+  time_on: '2129'
+  tx_pwr: 15
+
+- band: 2m
+  call: WB6YKU
+  country: United States
+  freq: '146.52'
+  gridsquare: CM88
+  mode: FM
+  my_gridsquare: CM87RW02
+  name: STEVEN I GINESI
+  notes: POTA K-1178, ARRL VHF Contest
+  operator: KO6BGT
+  qso_date: '20240121'
+  qth: CAZADERO
+  rst_rcvd: ''
+  rst_sent: ''
+  state: CA
+  time_on: '2144'
+  tx_pwr: 15
+
+- band: 2m
+  call: KN6OUJ
+  country: United States
+  freq: '146.52'
+  gridsquare: CM87
+  mode: FM
+  my_gridsquare: CM87RW02
+  name: John A Custer, III
+  notes: POTA K-1178, ARRL VHF Contest
+  operator: KO6BGT
+  qso_date: '20240121'
+  qth: Richmond
+  rst_rcvd: ''
+  rst_sent: ''
+  state: CA
+  time_on: '2151'
+  tx_pwr: 15
+
+- band: 2m
+  call: AE6CY
+  country: United States
+  freq: '146.52'
+  gridsquare: CM87
+  mode: FM
+  my_gridsquare: CM87RW02
+  name: CYRUS MOY
+  notes: POTA K-1178, ARRL VHF Contest, AE6CY/mobile
+  operator: KO6BGT
+  qso_date: '20240121'
+  qth: SAN LEANDRO
+  rst_rcvd: ''
+  rst_sent: ''
+  state: CA
+  time_on: '2155'
+  tx_pwr: 15
+
+- band: 2m
+  call: N4DLA
+  country: United States
+  freq: '146.52'
+  gridsquare: CM87
+  mode: FM
+  my_gridsquare: CM87RW02
+  name: MATTHEW G VUREK
+  notes: POTA K-1178, ARRL VHF Contest
+  operator: KO6BGT
+  qso_date: '20240121'
+  qth: ORINDA
+  rst_rcvd: ''
+  rst_sent: ''
+  state: CA
+  time_on: '2158'
+  tx_pwr: 15
+
+- band: 2m
+  call: KK6JNI
+  country: United States
+  freq: '146.52'
+  gridsquare: CM87
+  mode: FM
+  my_gridsquare: CM87RW02
+  name: Robert C Johnson
+  notes: POTA K-1178, ARRL VHF Contest
+  operator: KO6BGT
+  qso_date: '20240121'
+  qth: El Sobrante
+  rst_rcvd: ''
+  rst_sent: ''
+  state: CA
+  time_on: '2200'
+  tx_pwr: 15
+
+- band: 70cm
+  call: ND6V
+  country: United States
+  freq: '446.00'
+  gridsquare: CM97
+  mode: FM
+  my_gridsquare: CM87RW02
+  name: David N Johanson
+  notes: POTA K-1178, ARRL VHF Contest
+  operator: KO6BGT
+  qso_date: '20240121'
+  qth: Campbell
+  rst_rcvd: ''
+  rst_sent: ''
+  state: CA
+  time_on: '2203'
+  tx_pwr: 15
+
+- band: 70cm
+  call: AJ6LG
+  country: United States
+  freq: '446.00'
+  gridsquare: CM97
+  mode: FM
+  my_gridsquare: CM87RW02
+  name: JEFFREY F MILLER
+  notes: POTA K-1178, ARRL VHF Contest
+  operator: KO6BGT
+  qso_date: '20240121'
+  qth: LOS GATOS
+  rst_rcvd: ''
+  rst_sent: ''
+  state: CA
+  time_on: '2204'
+  tx_pwr: 15
+
+- band: 70cm
+  call: K6OAK
+  country: United States
+  freq: '446.00'
+  gridsquare: CM97
+  mode: FM
+  my_gridsquare: CM87RW02
+  name: David E Bono
+  notes: POTA K-1178, ARRL VHF Contest
+  operator: KO6BGT
+  qso_date: '20240121'
+  qth: Fremont
+  rst_rcvd: ''
+  rst_sent: ''
+  state: CA
+  time_on: '2206'
+  tx_pwr: 15
+
+- band: 70cm
+  call: WB6WNI
+  country: United States
+  freq: '446.00'
+  gridsquare: CM97
+  mode: FM
+  my_gridsquare: CM87RW02
+  name: GARY A GIAMPAOLI
+  notes: POTA K-1178, ARRL VHF Contest
+  operator: KO6BGT
+  qso_date: '20240121'
+  qth: SAN JOSE
+  rst_rcvd: ''
+  rst_sent: ''
+  state: CA
+  time_on: '2207'
+  tx_pwr: 15
+
+- band: 2m
+  call: AI6DC
+  country: United States
+  freq: '146.52'
+  gridsquare: CM87
+  mode: FM
+  my_gridsquare: CM87RW02
+  name: Jonathan Grose
+  notes: POTA K-1178, ARRL VHF Contest, AI6DC/mobile in Mill Valley
+  operator: KO6BGT
+  qso_date: '20240121'
+  qth: Mill Valley
+  rst_rcvd: ''
+  rst_sent: ''
+  state: CA
+  time_on: '2332'
+  tx_pwr: 15
